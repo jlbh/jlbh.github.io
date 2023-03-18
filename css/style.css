@@ -1,6 +1,6 @@
 h1 {
     color: white;
-    font-size: 50px;
+    font-size: 20px;
     font-family: monospace;
     text-shadow:
         -2px -2px 0 #000,  
@@ -11,7 +11,7 @@ h1 {
 
 a {
     color: hotpink;
-    font-size: 30px;
+    font-size: 15px;
     font-family: monospace;
   }
   a:link { text-decoration: none; }
@@ -30,8 +30,8 @@ body {
     justify-content:  flex-end;
     align-items: center;
     flex-direction: column;
-    line-height: 3;
-    height: 350px;
+    line-height: 1.8;
+    height: 200px;
 }
 
 .container {
