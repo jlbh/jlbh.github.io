@@ -25,19 +25,14 @@ body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
   }
 
-.header_con {
-    display: flex;
-    justify-content:  flex-end;
-    align-items: center;
-    flex-direction: column;
-    line-height: 1.8;
-    height: 200px;
-}
-
 .container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
     flex-direction: column;
-    line-height: 1.8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    text-align: center;
+    line-height: 25px; 
   }
